@@ -1,0 +1,28 @@
+{
+  "name": "jest-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./*.js"
+    ],
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
